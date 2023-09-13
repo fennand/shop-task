@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Grocery Shop</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <header>
         <h1>The Grocery Shop</h1>
-        <p>Your one stop shop for everything!</p>
+        <p id="headtext">Your one stop shop for everything!</p>
     </header>
     <section>
+        <h2 id="prompt"><script src="./app.js"></script></h2>
         <h2>Our Products</h2>
         <ul>
             <il><a href="https://ned2070.github.io/shop-task/">Groceries</a></il>
@@ -19,8 +21,16 @@
             <il><a href="https://DominicTootill-Giudice.github.io/shop-task/">Entertainment</a></il>
             <il><a href="https://emmyssj.github.io/shop-task/">Clothing</a></il>
         </ul>
+        <hr>
     </section>
     <section>
+        <h2>Cigarettes and Alcohol</h2>
+        <h3>Age verification check</h3>
+        <p id="demo">Do you confirm you are over 18?</p>
+        <button onclick="myFunction()">Age check</button>
+    </section>
+    <section>
+        <hr>
         <img src="Cigs1.jpg" alt="Refreshing cigarettes and alcohol">
         <p>Mmmmm, refreshing cigarettes and alcohol</p>
         <hr>
@@ -29,6 +39,11 @@
         <hr>
         <img src="Cigs3.jpg" alt="Cool party with cigarettes and alcohol">
         <p>Party like a rockstar with our cigarettes and alcohol</p>
+    </section>
+    <section>
+        <hr>
+        <p id='demo1' style='display: none'>Jokes, we're already cheap enough!</p>     
+        <button type='button' onclick="toggleText()">Click here for a loyal customer discount</button>
     </section>
 </body>
 </html>

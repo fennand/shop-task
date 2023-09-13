@@ -1,0 +1,97 @@
+body {
+    background-color: #CCBFEE;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    border: 3px solid #0F0920;
+    border-radius: 10%;
+    background-color: #997EDD;
+}
+
+#headtext {
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #0F0920;
+    color: #0F0920;
+    margin: 0 80px 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+
+a:hover {
+    box-shadow: inset 300px 0 0 0 #0F0920;
+    color: white;
+  }
+
+img {
+    max-width: 50%;
+    border-radius: 5%;
+}
+
+p {
+    color: #0F0920;
+    font-size: 40px;
+}
+
+hr {
+    border-top: 3px double;
+    width: 80%;
+}
+
+#demo {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #CCBFEE;
+    background-color: #0F0920;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 10px;
+  }
+
+button:hover {
+    background-color: white;
+    color: #0F0920;
+}
+
+button:active {
+    background-color: #0F0920;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: #CCBFEE;
+  }
+
+#prompt {
+    font-size: 50px;
+}
